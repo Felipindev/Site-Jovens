@@ -1,0 +1,206 @@
+.nav {
+    justify-content: center;
+    gap: 50px;
+
+    &>a {
+        text-decoration: none;
+        color: #251f1f;
+        font-family: 'Ysabeau SC', sans-serif;
+        font-size: large;
+        font-weight: 600;
+        transition: all 0.7s;
+    }
+
+    &>a:focus {
+        background-color: rgb(161, 197, 204);
+        color: rgb(43, 52, 54);
+        border-radius: 5px;
+        padding: 5px;
+    }
+}
+
+.nav2 {
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 30px;
+
+    &>a {
+        border: #ffffff solid 3px;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        color: #251f1f;
+        font-family: 'Ysabeau SC', sans-serif;
+        font-size: large;
+        font-weight: 600;
+        transition: all 0.7s;
+    }
+
+    &>a:focus {
+        background-color: rgb(161, 197, 204);
+        color: rgb(43, 52, 54);
+        border-radius: 5px;
+        padding: 15px;
+    }
+}
+
+.hidden {
+    display: none;
+}
+.visible {
+    display: block;
+  }
+
+body {
+    font-family: 'Ysabeau SC', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(161, 197, 204);
+    color: rgb(43, 52, 54);
+    height: 50px;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size:small;
+    font-weight: 600;
+    text-decoration: none;
+    gap: 10px;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+
+    &>.redes {
+        margin-left: 60%;
+        border-left: solid 3px #fdfdfd;
+        text-decoration: rgb(43, 52, 54);   
+        align-items: center;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &>.redes>a {
+        font-size: large;
+        font-weight: 500;
+        text-decoration: none;
+        color: rgb(28, 28, 29);
+        height: 35px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    &>.redes>span {
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        padding: 5px 10px;
+    }
+
+    &>span {
+        font-size: 18px;
+    }
+}
+
+
+.fundo {
+    justify-content: center;
+    font-family: 'Ysabeau SC', sans-serif;
+    align-items: center;
+    background-color: rgb(161, 197, 204);
+    color: rgb(43, 52, 54);
+    margin: 50px auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 20px;
+    height: 85px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+    &>h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+}
+
+.container {
+    display: flex;
+    padding: 7px;
+    max-width: 800px;
+    max-height: 800px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+
+}
+.container-org {
+    display: flex;
+    padding: 7px;
+    max-width: 500px;
+    max-height: 500px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+
+}
+
+.ponto {
+    display: flex;
+    background-color: #3b994b;
+    color: antiquewhite;
+    justify-content: center;
+}
+
+.img {
+    max-width: 300px;
+    max-height: 400px;
+}
+.lideres{
+    height: 400px;
+}
+.txt-lid{
+    margin-top: 35px;
+    max-height: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.titulo{
+    font-family: 'Ysabeau SC', serif;
+    background: rgb(190,216,221);
+    background: linear-gradient(90deg, rgba(190,216,221,1) 9%, rgb(161, 197, 204) 46%);
+    color: rgb(39, 29, 29) !important;
+    margin-bottom: 15px !important
+}
+.barra{
+    border-left: solid 3px #ffffff ;
+    border-right: solid 3px #ffffff;
+    height: auto;
+}
+.espaco{
+    padding: 25px;
+    text-align: center;
+}
+.voltar{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background: rgb(190,216,221);
+    background: linear-gradient(90deg, rgba(190,216,221,1) 9%, rgb(161, 197, 204) 46%);
+}
+.card-img{
+    max-width: 200px;
+    max-height: 200px;
+    display: inline-block;
+    overflow-y: auto;
+}
+
+
