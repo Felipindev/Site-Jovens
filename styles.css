@@ -1,4 +1,6 @@
 .nav {
+    align-items: center;
+    text-align: center;
     justify-content: center;
     gap: 50px;
 
@@ -137,8 +139,6 @@ body {
     align-items: center;
     justify-content: space-between;
     text-align: center;
-
-
 }
 .container-org {
     display: flex;
