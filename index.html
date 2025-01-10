@@ -43,7 +43,7 @@
         <a href="#" onclick="showMainSection('eventos')">Eventos</a>
     </nav>
 
-    <section id="historia" class="hidden">
+    <section id="historia" class="visible">
         <div class="fundo mt-4">
             <h2>História da União Jovem</h2>
         </div>
@@ -53,54 +53,99 @@
             <a href="#" onclick="showSubSection('desenvolvimento', 'historia')">Desenvolvimento</a>
             <a href="#" onclick="showSubSection('futuro', 'historia')">Futuro</a>
         </nav>
+            <section id="origens" class="visible">
+                <section class="d-flex flex-wrap align-items-center w-100 mt-5 justify-content-center p-3">
+                    
+                    <div class="d-flex flex-column col-md-6 col-12 p-4 gap-4">
+                        <h2 class="text-center" style="font-family: 'Ysabeau SC';">Início</h2>
+                        <span style="font-family: 'Ysabeau SC'; font-weight: 600;">
+                            O grupo "União Jovem", antes conhecida como "Apocalipse," foi fundado em 1998, na igreja Ceifeiros da
+                            Ultima Hora, no interior de São Paulo, numa cidade chamada Andradina. A ideia surgiu de um grupo de
+                            jovens que desejavam criar um espaço de adoração, compartilhando suas experiências de fé e oferecendo
+                            apoio mútuo. Sob a liderança do pastor Eduardo e com o incentivo de alguns líderes da igreja, o grupo
+                            realizou sua primeira reunião, com apenas alguns participantes.
+                        </span>
+            
+                        <a class="btn btn-danger" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                            Apocalipse?
+                        </a>
+            
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Explica direito!</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="fundo2">
+                                    Isso mesmo! O grupo inicialmente tinha o nome de "Apocalipse", determinado pelos próprios
+                                    pastores da igreja. Naquela época, cada igreja do grupo I. C. U. H (Igreja Ceifeiros da Ultima
+                                    Hora), podia escolher as cores que seriam usadas no congresso, o nome do grupo e o hino que
+                                    cantariam no Congresso, que acontece anualmente. Consequentemente, nos Congressos da I. C. U.
+                                    H, cada grupo de jovens de cada igreja se apresentavam, o que estendia demais no horário do
+                                    culto.
+                                </div>
+            
+                                <h5 class="offcanvas-title mb-5 mt-5" id="offcanvasExampleLabel">Como resolveram?</h5>
+            
+                                <div class="fundo3">
+                                    Foi então, que o pastor presidente Álvaro decidiu padronizar o nome "União Jovem" e as cores
+                                    "Branco" e "Preto", para representar todo o grupo de jovens da I. C. U. H. Dessa forma, todos os
+                                    jovens das igrejas da mesma denominação passaram a apresentar-se simultaneamente como um único
+                                    grupo, cantando o hino escolhido pelo lider do grupo, da igreja ao qual faria-se o Congresso.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    
+                    <div class="col-md-6 col-12 d-flex justify-content-center">
+                        <img class="img-fluid w-75" src="./img/uniaojovem.jpg" alt="União Jovem" loading="lazy">
+                    </div>
+                </section>
 
+        
+            <section class="d-flex flex-wrap align-items-center w-100 mt-5 justify-content-center p-3">
 
-        <section id="origens" class="hidden">
-            <section class="d-flex align-items-center w-100 mt-5 justify-content-center p-3">
-                <div class="d-flex flex-column w-25 p-5 gap-4">
-                    <h2 class="text-center" style="font-family: 'Ysabeau SC';">Início</h2>
-                    <span style="font-family: 'Ysabeau SC'; font-weight: 600;">O grupo "União Jovem", antes conhecida
-                        como "Apocalipse," foi fundado em 1998, na igreja Ceifeiros da Ultima Hora, no interior de São Paulo, numa cidade chamada Andradina.
-                        A ideia surgiu de um grupo de jovens que desejavam criar um espaço de adoração, compartilhando
-                        suas experiências de fé
-                        e oferecendo apoio mútuo. Sob a liderança do pastor Eduardo e com o incentivo de alguns líderes
-                        da igreja,
-                        o grupo realizou sua primeira reunião, com apenas alguns participantes.</span>
+                <div class="col-md-6 col-12 d-flex justify-content-center">
+                    <img class="img-fluid w-75" src="./img/UJ6.png" alt="União Jovem" loading="lazy">
                 </div>
-                <img class="w-50" src="./img/uniaojovem.jpg" alt="" loading="lazy">
-            </section>
-
-            <section class="d-flex align-items-center w-100 mt-5 justify-content-center p-3">
-                <img class="w-50" src="./img/UJ6.png" alt="" loading="lazy">
-                <div class="d-flex flex-column w-25 p-5 gap-4">
+            
+                <div class="d-flex flex-column col-md-6 col-12 p-4 gap-4">
                     <h2 class="text-center" style="font-family: 'Ysabeau SC';">Mudanças</h2>
-                    <span style="font-family: 'Ysabeau SC'; font-weight: 600;">Ao longo de seus primeiros anos de
-                        existência, o impacto da União Jovem foi notável tanto na vida espiritual quanto social de seus
-                        membros.
-                        Muitos jovens afirmam que encontraram propósito, amizades verdadeiras e um relacionamento mais
-                        profundo com Deus por meio do grupo.</span>
+                    <span style="font-family: 'Ysabeau SC'; font-weight: 600;">
+                        Ao longo de seus primeiros anos de existência, o impacto da União Jovem foi notável tanto na vida espiritual
+                        quanto social de seus membros. Muitos jovens afirmam que encontraram propósito, amizades verdadeiras e um
+                        relacionamento mais profundo com Deus por meio do grupo.
+                    </span>
                 </div>
             </section>
+            <div class="justify-content-center align-items-center text-center">
+                <a href="#" class="btn btn-terciary voltar">VOLTAR AO INÍCIO</a>
+            </div>
         </section>
 
         <section id="desenvolvimento" class="hidden">
-            <section class="d-flex align-items-center w-100 mt-5 justify-content-center p-3">
-                <img class="w-50" src="./img/UJ4.jpg" alt="" loading="lazy">
-                <div class="d-flex flex-column w-25 p-5 gap-4">
+            <section class="d-flex flex-wrap align-items-center w-100 mt-5 justify-content-center p-3">
+                
+                <div class="col-md-6 col-12 d-flex justify-content-center">
+                    <img class="img-fluid w-75" src="./img/UJ4.jpg" alt="União Jovem" loading="lazy">
+                </div>
+            
+                <div class="d-flex flex-column col-md-6 col-12 p-4 gap-4">
                     <h2 class="text-center" style="font-family: 'Ysabeau SC';">Crescimento</h2>
-                    <span style="font-family: 'Ysabeau SC'; font-weight: 600;">Com o passar dos anos, o União Jovem
-                        cresceu significativamente. No início, as reuniões eram simples, envolvendo estudos
-                        bíblicos e orações. Porém, logo começaram a organizar eventos maiores, como acampamentos,
-                        encontros regionais e projetos
-                        missionários. O grupo também expandiu seu alcance para atrair adolescentes e jovens de outras
-                        igrejas e comunidades,
-                        chegando a reunir vários participantes em um único evento, entitulado "Young Space" em
-                        2023.</span>
+                    <span style="font-family: 'Ysabeau SC'; font-weight: 600;">
+                        Com o passar dos anos, o União Jovem cresceu significativamente. No início, as reuniões eram simples,
+                        envolvendo estudos bíblicos e orações. Porém, logo começaram a organizar eventos maiores, como acampamentos,
+                        encontros regionais e projetos missionários. O grupo também expandiu seu alcance para atrair adolescentes e
+                        jovens de outras igrejas e comunidades, chegando a reunir vários participantes em um único evento,
+                        intitulado "Young Space" em 2023.
+                    </span>
                 </div>
             </section>
+            
 
-            <section class="d-flex align-items-center w-100 mt-5 justify-content-center p-3">
-                <div class="d-flex flex-column w-25 p-5 gap-4">
+            <section class="d-flex flex-wrap align-items-center w-100 mt-5 justify-content-center p-3">
+                <div class="d-flex flex-column col-md-6 col-12 p-4 gap-4">
                     <h2 class="text-center" style="font-family: 'Ysabeau SC';">Desafio</h2>
                     <span style="font-family: 'Ysabeau SC'; font-weight: 600;">Ao longo dos anos, a liderança do grupo
                         passou por várias transições. Após o pastor Eduardo, jovens membros que cresceram
@@ -111,13 +156,19 @@
                         a fé para manter a conexão com os membros e atrair novos participantes, garantindo a
                         continuidade do grupo.</span>
                 </div>
-                <img class="w-50" src="./img/UJ3.jpg" alt="" loading="lazy">
+
+                <div class="col-md-6 col-12 d-flex justify-content-center">
+                    <img class="img-fluid w-75" src="./img/UJ3.jpg" alt="" loading="lazy">
+                </div>
             </section>
+            <div class="justify-content-center align-items-center text-center">
+                <a href="#" class="btn btn-terciary voltar">VOLTAR AO INÍCIO</a>
+            </div>
         </section>
 
         <section id="futuro" class="hidden">
-            <section class="d-flex align-items-center w-100 mt-5 justify-content-center p-3">
-                <div class="d-flex flex-column w-25 p-5 gap-4">
+            <section class="d-flex flex-wrap align-items-center w-100 mt-5 justify-content-center p-3">
+                <div class="d-flex flex-column col-md-6 col-12 p-4 gap-4">
                     <h2 class="text-center" style="font-family: 'Ysabeau SC';">Eventos</h2>
                     <span style="font-family: 'Ysabeau SC'; font-weight: 600;">A União Jovem realiza atividades
                         diversificadas que incluem estudos bíblicos semanais, momentos de louvor, e reuniões
@@ -128,12 +179,18 @@
                         Além disso, o grupo organiza anualmente o Congresso de Jovens, que se tornou um marco na
                         história da Igreja.</span>
                 </div>
-                <img class="w-50" src="./img/UJ2.jpg" alt="" loading="lazy">
+
+                <div class="col-md-6 col-12 d-flex justify-content-center">
+                    <img class="img-fluid w-75" src="./img/UJ2.jpg" alt="" loading="lazy">
+                </div>
             </section> <br>
 
-            <section class="d-flex align-items-center w-100 mt-5 justify-content-center p-3">
-                <img class="w-50" src="./img/UJ5.png" alt="" loading="lazy">
-                <div class="d-flex flex-column w-25 p-5 gap-4">
+            <section class="d-flex flex-wrap align-items-center w-100 mt-5 justify-content-center p-3">
+                <div class="col-md-6 col-12 d-flex justify-content-center">
+                    <img class="img-fluid w-75" src="./img/UJ5.png" alt="" loading="lazy">
+                </div>
+
+                <div class="d-flex flex-column col-md-6 col-12 p-4 gap-4">
                     <h2 class="text-center" style="font-family: 'Ysabeau SC';">Planos</h2>
                     <span style="font-family: 'Ysabeau SC'; font-weight: 600;">O União Jovem tem grandes planos para os
                         próximos anos. Entre as metas, estão expandir
@@ -144,16 +201,21 @@
                 </div>
 
             </section>
+
+            <div class="justify-content-center align-items-center text-center">
+                <a href="#" class="btn btn-terciary voltar">VOLTAR AO INÍCIO</a>
+            </div>
         </section>
     </section>
 
-    <section id="lideres" class="hidden" style="z-index: 1000;">
-        <div class="fundo mt-4">
-            <h2>Líderes da União Jovem</h2>
+    <section id="lideres" class="hidden">
+        <div class="fundo mt-5">
+            <h2 class="text-center">Líderes da União Jovem</h2>
         </div>
 
-        <div class="container">
+        <div class="container mt-4">
             <div class="row">
+
                 <div class=" cards col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
                     <div class="card text-center">
                         <div class="shadow-lg">
@@ -161,8 +223,7 @@
                                 <h5 class="card-title titulo">Pr. Eduardo</h5>
                                 <img src="./img/eduardo.png" class="card-img" alt="...">
                                 <p class="card-text txt-lid">Um dos primeiros a assumir a liderança dos jovens. Iniciou
-                                    em ...
-                                    onde ficou cerca de ... anos.</p>
+                                    em 1998, onde ficou cerca de 4 anos.</p>
                             </div>
                         </div>
                     </div>
@@ -173,8 +234,24 @@
                         <div class="shadow-lg">
                             <div class="card-body lideres">
                                 <h5 class="card-title titulo">Pr. Leandro</h5>
+                                <img src="./img/Leandro.png" class="card-img" alt="...">
                                 <p class="card-text txt-lid">Um dos Veteranos na liderança, assumiu após a saída de Pr.
                                     Eduardo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card text-center">
+                        <div class="shadow-lg">
+                            <div class="card-body lideres">
+                                <h5 class="card-title titulo">Pra. Lídia</h5>
+                                <img src="./img/Lidia.png" class="card-img" alt="...">
+                                <p class="card-text txt-lid">A pastora chegou ainda jovem na igreja, em 2002, época em
+                                    que
+                                    o Pr. Leandro era lider. Anos depois, ela assume a liderança após a saída do ... .
+                                    Lídia, na época, tinha 18 anos e era vice-lider do grupo</p>
                             </div>
                         </div>
                     </div>
@@ -199,6 +276,7 @@
                         <div class=" shadow-lg">
                             <div class="card-body lideres">
                                 <h5 class="card-title titulo">Pr. Márcio e Pra. Patrícia</h5>
+                                <img src="./img/MarcoePatricia.png" class="card-img" alt="...">
                                 <p class="card-text txt-lid">Assumiram a liderança após a saída de Wellia e Arthur,
                                     ficaram cerca de um ano,
                                     e então, os antigos líderes voltaram ao cargo.</p>
@@ -246,48 +324,56 @@
                 </div>
             </div>
         </div>
+
+        <div class="justify-content-center align-items-center text-center">
+            <a href="#" class="btn btn-terciary voltar">VOLTAR AO INÍCIO</a>
+        </div>
     </section>
 
 
     <section id="eventos" class="hidden">
-        <div class="fundo mt-4">
-            <h2>Eventos da União Jovem</h2>
+        <div class="fundo mt-5">
+            <h2 class="text-center">Eventos da União Jovem</h2>
         </div>
 
-        <div class="card text-center" style="margin: 40px 400px 40px 400px;">
+        <div class="card text-center mx-auto my-4 card-responsive">
             <div class="shadow-lg">
                 <div class="card-body">
                     <h5 class="card-title">CINE JOVEM</h5>
-                    <a href="https://www.instagram.com/uniaojovemoficialbr/" target="_blank"><img
-                            src="./img/CineJovem.jpg" alt="" class="img"
-                            style="margin-bottom: 20px; cursor: pointer;;"></a>
-                    <p class="card-text">Um evento que acontece todos os meses, onde os jovens se reunem para assistir
-                        filmes
-                        e discutir reflexões a partir deles.</p>
+                    <a href="https://www.instagram.com/uniaojovemoficialbr/" target="_blank">
+                        <img src="./img/CineJovem.jpg" alt="Cine Jovem" class="img-fluid" style="margin-bottom: 20px; cursor: pointer;">
+                    </a>
+                    <p class="card-text">
+                        Um evento que acontece todos os meses, onde os jovens se reunem para assistir filmes
+                        e discutir reflexões a partir deles.
+                    </p>
                 </div>
             </div>
         </div>
+        
+        
 
-        <div class="card text-center" style="margin: 40px 400px 40px 400px;">
+        <div class="card text-center mx-auto my-4 card-responsive" >
             <div class="shadow-lg">
                 <div class="card-body">
                     <h5 class="card-title">ESPAÇO JOVEM</h5>
-                    <a href="https://www.instagram.com/uniaojovemoficialbr/" target="_blank"><img
-                            src="./img/EspaçoJovem.jpg" alt="" class="img"
-                            style="margin-bottom: 20px; cursor: pointer;;"></a>
-                    <p class="card-text">Um evento que acontece todos os meses, onde os jovens se reunem para a adoração
+                    <a href="https://www.instagram.com/uniaojovemoficialbr/" target="_blank">
+                        <img src="./img/EspaçoJovem.jpg" alt="Espaço Jovem" class="img-fluid" style="margin-bottom: 20px; cursor: pointer;;"></a>
+                    <p class="card-text">
+                        Um evento que acontece todos os meses, onde os jovens se reunem para a adoração
                         e pregação da palavra de Deus, e logo após, um momento de descontração e diversão entre os
-                        jovens!</p>
+                        jovens!
+                    </p>
                 </div>
             </div>
         </div>
 
-        <div class="card text-center" style="margin: 40px 400px 40px 400px;">
+        <div class="card text-center mx-auto my-4 card-responsive">
             <div class="shadow-lg">
                 <div class="card-body">
                     <h5 class="card-title">PAPO JOVEM</h5>
                     <a href="https://www.instagram.com/uniaojovemoficialbr/" target="_blank"><img
-                            src="./img/PapoJovem.jpg" alt="" class="img"
+                            src="./img/PapoJovem.jpg" alt="" class="img-fluid"
                             style="margin-bottom: 20px; cursor: pointer;;"></a>
                     <p class="card-text">Um evento que acontece todos os meses, onde os jovens recebem uma palestra
                         visando
@@ -297,12 +383,12 @@
             </div>
         </div>
 
-        <div class="card text-center" style="margin: 40px 400px 40px 400px;">
+        <div class="card text-center mx-auto my-4 card-responsive">
             <div class="shadow-lg">
                 <div class="card-body">
                     <h5 class="card-title">Young space</h5>
                     <a href="https://www.instagram.com/uniaojovemoficialbr/" target="_blank"><img
-                            src="./img/YoungSpace.png" alt="" class="img"
+                            src="./img/YoungSpace.png" alt="" class="img-fluid"
                             style="margin-bottom: 20px; cursor: pointer;;"></a>
                     <p class="card-text">Aconteceu pela primeira vez em 2023, onde os jovens reuniram-se em um retiro
                         revigorante, cheio
@@ -313,16 +399,18 @@
             </div>
         </div>
 
-        <div class="card text-center" style="margin: 40px 400px 40px 400px;">
+        <div class="card text-center mx-auto my-4 card-responsive">
             <div class="shadow-lg">
                 <div class="card-body">
-                    <h5 class="card-title">Congressos</h5>
+                    <h5 class="card-title">CONGRESSOS</h5>
                     <a href="https://www.instagram.com/uniaojovemoficialbr/" target="_blank"><img
                             src="./img/congresso.png" alt="" class="img"
                             style="margin-bottom: 20px; cursor: pointer;;"></a>
-                    <p class="card-text">Desde o início da União Jovem foram realizados os congressos, que são cultos especiais
-                     que acontecem anualmente, sobre responsabilidade do grupo. Neles, os jovens recebem as oportunidades e convidam 
-                     jovens de outras igrejas para a efetuação conjunta da adoração e do culto a Deus.
+                    <p class="card-text">Desde o início da União Jovem foram realizados os congressos, que são cultos
+                        especiais
+                        que acontecem anualmente sobre responsabilidade do grupo. Neles, os jovens recebem as
+                        oportunidades e convidam
+                        jovens de outras igrejas para a efetuação conjunta da adoração e do culto a Deus.
                     </p>
                 </div>
             </div>
