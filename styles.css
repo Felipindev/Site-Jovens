@@ -75,7 +75,7 @@ body {
     position: fixed;
 
     &>.redes {
-        margin-left: 60%;
+        margin-left: 65%;
         border-left: solid 3px #fdfdfd;
         text-decoration: rgb(43, 52, 54);   
         align-items: center;
@@ -173,9 +173,8 @@ body {
 }
 .titulo{
     font-family: 'Ysabeau SC', serif;
-    background: rgb(190,216,221);
-    background: linear-gradient(90deg, rgba(190,216,221,1) 9%, rgb(161, 197, 204) 46%);
-    color: rgb(39, 29, 29) !important;
+    background: rgb(23, 28, 29);
+    color: rgb(247, 235, 235) !important;
     margin-bottom: 15px !important
 }
 .barra{
@@ -192,8 +191,13 @@ body {
     text-align: center;
     align-items: center;
     margin-bottom: 30px;
-    background: rgb(190,216,221);
-    background: linear-gradient(90deg, rgba(190,216,221,1) 9%, rgb(161, 197, 204) 46%);
+    background: rgb(18, 20, 20);
+    color: #fdfdfd;
+}
+.voltar:hover{
+    margin-bottom: 30px;
+    background: rgb(18, 20, 20);
+    color: #fdfdfd !important;
 }
 .card-img{
     max-width: 200px;
@@ -201,23 +205,17 @@ body {
     display: inline-block;
     overflow-y: auto;
 }
-.fundo2{
-    background: rgb(217,231,233);
-    background: linear-gradient(90deg, rgba(217,231,233,1) 9%, rgba(178,214,221,1) 30%, rgba(161,197,204,1) 43%, rgba(144,195,53,1) 82%);
-    padding: 5px;
-    border-radius: 8px;
-}
 .fundo3{
     padding: 5px;
     border-radius: 8px;
     background: rgb(229,237,238);
-    background: linear-gradient(90deg, rgba(229,237,238,1) 9%, rgba(216,224,217,1) 35%, rgb(163, 167, 158) 82%);
+    background: linear-gradient(90deg, rgba(229,237,238,1) 9%, rgba(216,224,217,1) 35%, rgb(195, 199, 191) 82%);
 }
 .btn {
     transition: all 0.6s !important;
+    width: 400px;
   }
 .btn:hover{
-    padding: 15px;
     transform: scale(1.1);
     background-color: #251f1f !important;
     border: #251f1f;
