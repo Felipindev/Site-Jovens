@@ -53,61 +53,6 @@
     display: block;
   }
 
-body {
-    font-family: 'Ysabeau SC', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.header {
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgb(22, 23, 24);
-    color: rgb(219, 230, 233);
-    height: 50px;
-    font-family: 'Ysabeau SC', sans-serif;
-    font-size:small;
-    font-weight: 600;
-    text-decoration: none;
-    gap: 10px;
-    width: 100%;
-    z-index: 1000;
-    position: fixed;
-
-    &>.redes {
-        margin-left: 65%;
-        border-left: solid 3px #fdfdfd;
-        text-decoration: rgb(43, 52, 54);   
-        align-items: center;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    }
-
-    &>.redes>a {
-        font-size: large;
-        font-weight: 500;
-        text-decoration: none;
-        color: rgb(229, 229, 236);
-        height: 35px;
-        margin-right: 10px;
-        display: flex;
-        align-items: center;
-    }
-
-    &>.redes>span {
-        font-weight: 700;
-        display: flex;
-        align-items: center;
-        padding: 5px 10px;
-    }
-
-    &>span {
-        font-size: 18px;
-    }
-}
-
-
 .fundo {
     justify-content: center;
     font-family: 'Ysabeau SC', sans-serif;
@@ -177,11 +122,7 @@ body {
     color: rgb(247, 235, 235) !important;
     margin-bottom: 15px !important
 }
-.barra{
-    border-left: solid 3px #ffffff ;
-    border-right: solid 3px #ffffff;
-    height: auto;
-}
+
 .espaco{
     padding: 25px;
     text-align: center;
@@ -209,11 +150,11 @@ body {
     padding: 5px;
     border-radius: 8px;
     background: rgb(229,237,238);
-    background: linear-gradient(90deg, rgba(229,237,238,1) 9%, rgba(216,224,217,1) 35%, rgb(195, 199, 191) 82%);
 }
 .btn {
     transition: all 0.6s !important;
     width: 400px;
+    margin-top: 245px !important;
   }
 .btn:hover{
     transform: scale(1.1);
@@ -232,7 +173,64 @@ body {
     }
 }
 
+/* teste para slider da header  */
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
 
+.header-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: #131313;
+}
+
+.header-content {
+    display: flex;
+    width: 100%; /* Ajuste para quantos itens tiver */
+    transition: transform 0.5s ease-in-out;
+}
+
+.header-item {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    background: #131313;
+}
+
+.btn {
+    position: absolute;
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+    background: rgba(17, 16, 16, 0.5);
+    border: none;
+    cursor: pointer;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+     
+    &>a {
+        text-decoration: none;
+        color: #dadada;
+        font-family: 'Ysabeau SC', sans-serif;
+        font-size: large;
+        font-weight: 600;
+        transition: all 0.7s;
+    }
+}
 
 
 
